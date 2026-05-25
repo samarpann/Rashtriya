@@ -1,12 +1,25 @@
 @import "tailwindcss";
 
 @theme {
+  /* Override default Tailwind orange with modern light blue shades */
+  --color-orange-50: #f0f9ff;
+  --color-orange-100: #e0f2fe;
+  --color-orange-200: #bae6fd;
+  --color-orange-300: #7dd3fc;
+  --color-orange-400: #38bdf8;
+  --color-orange-500: #0ea5e9;
+  --color-orange-600: #0284c7;
+  --color-orange-700: #0369a1;
+  --color-orange-800: #075985;
+  --color-orange-900: #0c4a6e;
+  --color-orange-950: #082f49;
+
   --color-primary: #1e3a5f;
   --color-primary-light: #2a5298;
   --color-primary-dark: #0f1c2e;
-  --color-secondary: #f97316;
-  --color-secondary-light: #fb923c;
-  --color-secondary-dark: #ea6c04;
+  --color-secondary: #0ea5e9;
+  --color-secondary-light: #38bdf8;
+  --color-secondary-dark: #0284c7;
   --color-accent: #9ca3af;
   --color-dark: #0f1c2e;
   --color-steel: #64748b;
@@ -39,7 +52,7 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #1e3a5f, #f97316);
+    background: linear-gradient(135deg, #1e3a5f, #0ea5e9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -48,7 +61,7 @@
   .bg-hero-pattern {
     background-image: 
       linear-gradient(rgba(15, 28, 46, 0.82), rgba(15, 28, 46, 0.88)),
-      url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80");
+      url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1600&q=80");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -84,7 +97,7 @@
   }
 
   .btn-primary {
-    background-color: #f97316;
+    background-color: #0ea5e9;
     color: #ffffff;
     padding: 0.75rem 2rem;
     border-radius: 0.5rem;
@@ -97,9 +110,9 @@
   }
 
   .btn-primary:hover {
-    background-color: #ea6c04;
+    background-color: #0284c7;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.35);
+    box-shadow: 0 8px 25px rgba(14, 165, 233, 0.35);
   }
 
   .btn-outline {
@@ -137,8 +150,8 @@
 
   .section-badge {
     display: inline-block;
-    background-color: rgba(249, 115, 22, 0.12);
-    color: #f97316;
+    background-color: rgba(14, 165, 233, 0.12);
+    color: #0ea5e9;
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -155,14 +168,14 @@
   }
 
   .swiper-pagination-bullet-active {
-    background: #f97316 !important;
+    background: #0ea5e9 !important;
     width: 24px !important;
     border-radius: 4px !important;
   }
 
   .swiper-button-next,
   .swiper-button-prev {
-    color: #f97316 !important;
+    color: #0ea5e9 !important;
     background: rgba(255, 255, 255, 0.1);
     width: 44px !important;
     height: 44px !important;

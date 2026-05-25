@@ -1,82 +1,65 @@
 export const categories = [
   {
     id: 1,
-    slug: "pipes-tubes-welded",
-    title: "Pipes & Tubes Welded",
+    slug: "welded-seamless-pipes",
+    title: "Welded & Seamless Pipes",
     description:
-      "High-quality welded pipes and tubes for industrial applications, available in SS, CS, and MS grades.",
+      "Premium welded and seamless pipes engineered for high-pressure, structural, and corrosive environments.",
     icon: "🔩",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80",
+    image: "/prodcut photo/Seamless Pipes .jpeg",
   },
   {
     id: 2,
-    slug: "pipes-tubes-seamless",
-    title: "Pipes & Tubes Seamless",
+    slug: "sheet-coil-plate",
+    title: "Sheel/ Coil/ Plate",
     description:
-      "Precision seamless pipes for high-pressure applications. Corrosion-resistant and durable.",
-    icon: "⚙️",
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "Stainless steel sheets, coils, and plates for structural, decoration, and industrial fabrication.",
+    icon: "📋",
+    image: "/prodcut photo/SS 304 Sheet & Coil.jpeg",
   },
   {
     id: 3,
-    slug: "sheet-coil-plate",
-    title: "Sheet / Coil / Plate",
+    slug: "angles-flat-patti",
+    title: "Angles & Flat Patti",
     description:
-      "Stainless steel sheets, coils, and plates for structural and fabrication needs.",
-    icon: "📋",
-    image:
-      "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&q=80",
+      "Structural angle bars, channels, flat bars, and patti sections for construction and manufacturing.",
+    icon: "📐",
+    image: "/prodcut photo/Flat Patti & Strip.jpeg",
   },
   {
     id: 4,
     slug: "wire-rods",
     title: "Wire & Rods",
     description:
-      "Industrial-grade wire and rods in various diameters for manufacturing and engineering.",
+      "Industrial-grade wires, bright bars, and rods in various diameters and steel grades.",
     icon: "🔗",
-    image:
-      "https://images.unsplash.com/photo-1565636291267-7f37f91e3b0b?w=600&q=80",
+    image: "/prodcut photo/SS 304 Rods.jpeg",
   },
   {
     id: 5,
-    slug: "angle-flat-patti",
-    title: "Angle & Flat / Patti",
+    slug: "industrial-valves-flanges",
+    title: "Industrial Valves & Flanges",
     description:
-      "Structural angle bars, flat bars, and patti sections for construction and fabrication.",
-    icon: "📐",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "High-performance industrial valves and flanges designed for reliable fluid and gas control systems.",
+    icon: "🔧",
+    image: "/prodcut photo/Flange Type Ball Valve.jpeg",
   },
   {
     id: 6,
-    slug: "industrial-valves-flange",
-    title: "Industrial Valves & Flange",
+    slug: "bolts-nuts-fasteners",
+    title: "Bolts/ Nuts & Fasteners",
     description:
-      "High-performance industrial valves and flanges for fluid and gas control systems.",
-    icon: "🔧",
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80",
+      "Premium fasteners, heavy hex bolts, nuts, washers, and U-bolts in high-tensile steel grades.",
+    icon: "🔩",
+    image: "/prodcut photo/SS Nut Bolts.jpeg",
   },
   {
     id: 7,
-    slug: "fasteners-bolt-nuts",
-    title: "Fasteners & Bolt / Nuts",
-    description:
-      "Premium fasteners, bolts, and nuts in stainless steel and alloy steel grades.",
-    icon: "🔩",
-    image:
-      "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80",
-  },
-  {
-    id: 8,
     slug: "fittings",
     title: "Fittings",
     description:
-      "Complete range of pipe fittings including elbows, tees, reducers, and couplings.",
+      "Complete range of pipe fittings including elbows, tees, concentric reducers, and coupling parts.",
     icon: "🔄",
-    image:
-      "https://images.unsplash.com/photo-1581093804475-577d72e35310?w=600&q=80",
+    image: "/prodcut photo/Ferroul Fittings.jpeg",
   },
 ];

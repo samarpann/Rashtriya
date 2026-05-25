@@ -8,59 +8,46 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
+const CAROUSEL_IMG = (filename) => `/crousel/${encodeURIComponent(filename)}`;
+
 const slides = [
   {
     id: 1,
-    title: "Stainless Steel Pipes",
-    subtitle: "SS 304 | SS 316 | SS 316L",
+    title: "Heavy-Duty Roll Forming",
+    subtitle: "Precision Metal Shaping",
     description:
-      "Premium-grade stainless steel pipes engineered for high-pressure and corrosive environments.",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80",
+      "State-of-the-art automated machinery for seamless profile crafting and precision steel forming.",
+    image: CAROUSEL_IMG("WhatsApp Image 2026-05-25 at 12.36.43 PM.jpeg"),
     cta: "Explore Pipes",
-    link: "/products?category=pipes-tubes-welded",
+    link: "/products?category=welded-seamless-pipes",
   },
   {
     id: 2,
-    title: "Industrial Fittings",
-    subtitle: "Elbows | Tees | Reducers | Couplings",
+    title: "Automated Steel Processing",
+    subtitle: "Advanced Fabrication Technology",
     description:
-      "Complete range of pipe fittings in stainless, carbon, and alloy steel for every industrial need.",
-    image:
-      "https://images.unsplash.com/photo-1581093804475-577d72e35310?w=1600&q=80",
-    cta: "View Fittings",
-    link: "/products?category=fittings",
-  },
-  {
-    id: 3,
-    title: "Flanges & Valves",
-    subtitle: "Slip-On | Weld-Neck | Ball Valves",
-    description:
-      "High-performance flanges and valves built to withstand extreme temperature and pressure.",
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1600&q=80",
-    cta: "View Flanges",
-    link: "/products?category=industrial-valves-flange",
-  },
-  {
-    id: 4,
-    title: "Sheets, Plates & Coils",
-    subtitle: "HR | CR | SS | Chequered",
-    description:
-      "Structural and fabrication-grade steel sheets and plates in all grades and thicknesses.",
-    image:
-      "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=1600&q=80",
+      "Cutting-edge robotic manufacturing systems delivering reliable quality and maximum industrial efficiency.",
+    image: CAROUSEL_IMG("WhatsApp Image 2026-05-25 at 12.36.54 PM.jpeg"),
     cta: "View Sheets",
     link: "/products?category=sheet-coil-plate",
   },
   {
-    id: 5,
-    title: "Industrial Raw Materials",
-    subtitle: "Wire | Rods | Angles | Flats",
+    id: 3,
+    title: "High-Precision CNC Machining",
+    subtitle: "Flanges, Valves & Components",
     description:
-      "A complete sourcing solution for all your industrial raw material requirements.",
-    image:
-      "https://images.unsplash.com/photo-1565636291267-7f37f91e3b0b?w=1600&q=80",
+      "Computer-controlled heavy milling machinery for micro-tolerance valves and perfectly calibrated industrial flanges.",
+    image: CAROUSEL_IMG("WhatsApp Image 2026-05-25 at 12.36.59 PM.jpeg"),
+    cta: "View Valves",
+    link: "/products?category=industrial-valves-flanges",
+  },
+  {
+    id: 4,
+    title: "Heavy Metal Smelting & Rolling",
+    subtitle: "Industrial Raw Materials",
+    description:
+      "Massive roll mills and smelting plants engineered to produce high-tensile rods, wire coils, and structural angles.",
+    image: CAROUSEL_IMG("WhatsApp Image 2026-05-25 at 12.37.05 PM.jpeg"),
     cta: "Explore Materials",
     link: "/products",
   },
