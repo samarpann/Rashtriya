@@ -4,7 +4,7 @@ import ContactForm from "../components/ContactForm";
 const contactCards = [
   {
     Icon: MapPin,
-    title: "Office Address",
+    title: "Head Office",
     color: "bg-blue-500",
     lines: [
       "101, 1st Floor, B-Wing, Pankaj Heights,",
@@ -26,12 +26,11 @@ const contactCards = [
   },
   {
     Icon: MapPin,
-    title: "Warehouse",
+    title: "Delhi Office",
     color: "bg-[#1e3a5f]",
     lines: [
-      "Plot 1417/1418, Road No 13,",
-      "KEC - Kalamboli Steel Market,",
-      "KEC, Panvel, Raigarh - 410218.",
+      "Jindal House",
+      "Delhi",
     ],
     action: null,
   },
