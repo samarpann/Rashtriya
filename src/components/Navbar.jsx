@@ -34,7 +34,7 @@ export default function Navbar() {
             </a>
           </div>
           <span className="text-gray-500 text-xs">
-            19-B Jindal House, Asaf Ali Road, New Delhi - 110002
+            101, 1st Floor, B-Wing, Pankaj Heights, Mumbai - 400 004
           </span>
         </div>
       </div>
@@ -49,16 +49,23 @@ export default function Navbar() {
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-18 py-3">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group" onClick={() => setMenuOpen(false)}>
-            <div className="w-11 h-11 rounded-xl bg-orange-500 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-              <span className="text-white font-black text-lg leading-none">R</span>
+          <Link to="/" className="flex items-center gap-4 group" onClick={() => setMenuOpen(false)}>
+            <div className="bg-white rounded-xl p-1.5 shadow-md group-hover:scale-105 transition-transform">
+              <img 
+                src="/logo.jpeg" 
+                alt="Rashtriya Tubes & Fittings Logo" 
+                className="h-12 sm:h-14 w-auto object-contain mix-blend-multiply" 
+              />
             </div>
-            <div className="leading-tight">
-              <div className={`font-black text-base tracking-tight transition-colors ${scrolled ? "text-[#1e3a5f]" : "text-white"}`}>
-                Rashtriya
+            <div className="leading-tight mt-1">
+              <div className={`font-black text-2xl tracking-tight transition-colors flex items-baseline ${scrolled ? "text-[#1e3a5f]" : "text-white"}`}>
+                R<span className="text-[34px] font-serif italic text-orange-500 px-px">A</span>shtriya
               </div>
-              <div className={`text-xs font-semibold tracking-widest uppercase transition-colors ${scrolled ? "text-orange-500" : "text-orange-400"}`}>
+              <div className={`text-[13px] font-bold tracking-widest uppercase transition-colors ${scrolled ? "text-orange-500" : "text-orange-400"}`}>
                 Tubes & Fittings
+              </div>
+              <div className="mt-1.5 inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-600 to-amber-500 text-white px-2.5 py-0.5 rounded shadow-sm border border-orange-400/20 transform -skew-x-6 hover:skew-x-0 transition-transform">
+                <span className="text-xs font-black italic tracking-wider transform skew-x-6">36TH ANNIVERSARY</span>
               </div>
             </div>
           </Link>

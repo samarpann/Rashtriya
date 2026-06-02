@@ -4,19 +4,41 @@ import ContactForm from "../components/ContactForm";
 const contactCards = [
   {
     Icon: MapPin,
-    title: "Our Address",
+    title: "Office Address",
     color: "bg-blue-500",
     lines: [
-      "19-B Jindal House,",
-      "Back Side Asaf Ali Road,",
-      "New Delhi - 110002",
+      "101, 1st Floor, B-Wing, Pankaj Heights,",
+      "Dr Deshmukh Lane, Opp VP Road Police Station,",
+      "Mumbai - 400 004",
+    ],
+    action: null,
+  },
+  {
+    Icon: MapPin,
+    title: "Factory Address",
+    color: "bg-orange-500",
+    lines: [
+      "Gala No.2, S K Compound, Survey No.161, P No.a-2,",
+      "Palher, Vasai Phata, Village Waliv, Vasai East,",
+      "Palghar, Maharashtra, India - 401208.",
+    ],
+    action: null,
+  },
+  {
+    Icon: MapPin,
+    title: "Warehouse",
+    color: "bg-[#1e3a5f]",
+    lines: [
+      "Plot 1417/1418, Road No 13,",
+      "KEC - Kalamboli Steel Market,",
+      "KEC, Panvel, Raigarh - 410218.",
     ],
     action: null,
   },
   {
     Icon: Phone,
     title: "Phone Numbers",
-    color: "bg-orange-500",
+    color: "bg-green-500",
     lines: ["98104-28612", "011-2323-1567", "4011-3969"],
     action: "tel:+919810428612",
     actionLabel: "Call Now",
@@ -24,7 +46,7 @@ const contactCards = [
   {
     Icon: Mail,
     title: "Email Addresses",
-    color: "bg-green-500",
+    color: "bg-purple-500",
     lines: ["rashtriya94@yahoo.co.in", "dhanvisteel1010@gmail.com"],
     action: "mailto:rashtriya94@yahoo.co.in",
     actionLabel: "Send Email",
@@ -32,7 +54,7 @@ const contactCards = [
   {
     Icon: Clock,
     title: "Business Hours",
-    color: "bg-purple-500",
+    color: "bg-red-500",
     lines: ["Monday – Saturday", "10:00 AM – 6:00 PM", "Sunday: Closed"],
     action: null,
   },
@@ -46,7 +68,7 @@ export default function Contact() {
         className="relative py-20 md:py-28 flex items-center"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(15,28,46,0.88), rgba(15,28,46,0.92)), url(https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1600&q=80)",
+            "linear-gradient(rgba(15,28,46,0.88), rgba(15,28,46,0.92)), url(https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=80)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -68,21 +90,21 @@ export default function Contact() {
       {/* Contact Cards */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {contactCards.map((card, i) => (
               <div
                 key={i}
-                className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:shadow-blue-900/10 transition-all duration-300 hover:-translate-y-1 group"
+                className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:shadow-blue-900/10 transition-all duration-300 hover:-translate-y-1 group flex flex-col"
               >
                 <div
-                  className={`w-12 h-12 ${card.color} rounded-xl flex items-center justify-center mb-4 shadow-lg`}
+                  className={`w-12 h-12 ${card.color} rounded-xl flex items-center justify-center mb-4 shadow-lg shrink-0`}
                 >
                   <card.Icon size={22} className="text-white" />
                 </div>
                 <h3 className="font-bold text-[#1e3a5f] text-base mb-3">
                   {card.title}
                 </h3>
-                <div className="space-y-1">
+                <div className="space-y-1 flex-grow">
                   {card.lines.map((line, j) => (
                     <p key={j} className="text-gray-600 text-sm">
                       {line}
@@ -92,7 +114,7 @@ export default function Contact() {
                 {card.action && (
                   <a
                     href={card.action}
-                    className="mt-4 inline-flex items-center gap-1.5 text-orange-500 font-semibold text-sm hover:gap-2 transition-all"
+                    className="mt-4 inline-flex items-center gap-1.5 text-orange-500 font-semibold text-sm hover:gap-2 transition-all self-start"
                   >
                     {card.actionLabel}{" "}
                     <ExternalLink size={12} />
@@ -177,8 +199,7 @@ export default function Contact() {
                         Visit Us
                       </p>
                       <p className="text-gray-500 text-xs mt-0.5">
-                        19-B Jindal House, Back Side Asaf Ali Road, New Delhi -
-                        110002
+                        101, 1st Floor, B-Wing, Pankaj Heights, Mumbai - 400 004
                       </p>
                     </div>
                   </div>

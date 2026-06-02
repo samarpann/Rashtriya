@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
             <span className="text-orange-500">Advantage</span>
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto">
-            Decades of expertise, quality commitment, and customer-first values
+            Over 36+ years of trusted service, quality commitment, and customer-first values
             set us apart in the industrial supply chain.
           </p>
         </div>

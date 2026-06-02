@@ -15,7 +15,7 @@ export const categories = [
     description:
       "Stainless steel sheets, coils, and plates for structural, decoration, and industrial fabrication.",
     icon: "📋",
-    image: "/prodcut photo/SS 304 Sheet & Coil.jpeg",
+    image: "/prodcut photo/SS 304 Sheet and Coil.jpeg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const categories = [
     description:
       "Structural angle bars, channels, flat bars, and patti sections for construction and manufacturing.",
     icon: "📐",
-    image: "/prodcut photo/Flat Patti & Strip.jpeg",
+    image: "/prodcut photo/Flat Patti and Strip.jpeg",
   },
   {
     id: 4,

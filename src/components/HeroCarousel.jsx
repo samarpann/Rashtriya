@@ -82,9 +82,14 @@ export default function HeroCarousel() {
                   transition={{ duration: 0.7, ease: "easeOut" }}
                   className="max-w-xl"
                 >
-                  <span className="inline-block bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">
-                    {slide.subtitle}
-                  </span>
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="inline-block bg-orange-600/90 text-white text-xs font-black tracking-widest uppercase px-4 py-1.5 rounded-full shadow-lg border border-orange-500">
+                      Celebrating 36 Years (1994 - 2026)
+                    </span>
+                    <span className="inline-block bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full">
+                      {slide.subtitle}
+                    </span>
+                  </div>
                   <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-4">
                     {slide.title}
                   </h2>

@@ -8,27 +8,27 @@ const productRange = [
   {
     title: "Stainless Steel Pipes & Tubes",
     desc: "Welded and seamless pipes in SS 304, 316, 316L, 202 grades for all industrial applications.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80",
+    image: "/prodcut photo/SS 304 Seamless Pipe.jpeg",
   },
   {
     title: "Pipe Fittings",
     desc: "Complete range of elbows, tees, reducers, couplings, and end caps in multiple material grades.",
-    image: "https://images.unsplash.com/photo-1581093804475-577d72e35310?w=600&q=80",
+    image: "/prodcut photo/Steel Butt Weld Fittings.jpeg",
   },
   {
     title: "Industrial Flanges",
     desc: "Slip-on, weld-neck, blind, and threaded flanges in ASTM and IS standards.",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80",
+    image: "/prodcut photo/Flange.jpeg",
   },
   {
     title: "Sheets, Plates & Coils",
     desc: "HR, CR, and SS sheets in 2B, BA, No.4, and mirror finish for structural and decorative use.",
-    image: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&q=80",
+    image: "/prodcut photo/SS 304 Sheet and Coil.jpeg",
   },
   {
     title: "Industrial Raw Materials",
     desc: "Wire rods, angle bars, flat bars, channels, beams, and other structural steel sections.",
-    image: "https://images.unsplash.com/photo-1565636291267-7f37f91e3b0b?w=600&q=80",
+    image: "/prodcut photo/SS 304 Rods.jpeg",
   },
 ];
 
@@ -37,7 +37,7 @@ const whyPoints = [
   "Test certificates provided",
   "Custom cutting & processing",
   "Competitive bulk pricing",
-  "30+ years of expertise",
+  "36+ years of expertise",
   "Pan-India supply capability",
   "ASTM, DIN, IS grade materials",
   "Fast turnaround on orders",
@@ -90,35 +90,49 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Rashtriya Tubes & Fittings is a trusted name in the metal and
-                  piping industry, specializing in the supply of superior-grade
-                  Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, and
-                  Industrial Fittings.
+                  We have pleasure in introducing ourselves as one of the leading
+                  importers, stockists and dealers of all kinds of ferrous and
+                  non-ferrous metals. With our commitment to quality and services,
+                  we have emerged as the market leaders in this field over a
+                  period of more than a decade now.
                 </p>
                 <p>
-                  We deliver products designed to withstand demanding industrial
-                  applications while ensuring high performance, corrosion
-                  resistance, and long service life.
+                  We deal in <span className="font-bold text-[#1e3a5f]">STAINLESS STEEL</span> seamless, welded pipes,
+                  pipe fittings, sheets, plates, coils, rods, perforated sheets,
+                  flanges, nut-bolts, dairy fittings and various types of valves
+                  in all grades such as <span className="font-semibold">304, 304L, 316, 316L, 310 and 321</span> etc.
+                  This range is also available in carbon and alloy steel. We also
+                  deal in copper, brass, aluminium metals in all shapes and sizes.
                 </p>
                 <p>
-                  Backed by strong sourcing capabilities, technical expertise,
-                  and a customer-centric approach, we offer solutions that meet
-                  national and international quality standards.
+                  In addition to above, we are into Inconel, monel, nickel and hast alloy,
+                  titanium sheet, plates and pipes in all sizes and specifications.
                 </p>
-                <p className="font-semibold text-[#1e3a5f]">
-                  We believe in delivering not just products, but dependable
-                  industrial solutions.
+                <p>
+                  Our products are used across industries both public and private like –
+                  pharmaceuticals, chemicals, petrochemicals, fertilizers, pesticides,
+                  breweries & distilleries, equipment manufacturing, dairy and food,
+                  sugar, paper, auto, cement, heavy engineering, soap & solvent, paint
+                  & allied industries.
+                </p>
+                <p>
+                  With our associates across the country, we will be able to cater to your
+                  needs in a better way. At our site, we entertain third party inspection as well.
+                </p>
+                <p className="font-semibold text-[#1e3a5f] mt-4">
+                  We request you to kindly register our name in your vendor list and favour us
+                  by forwarding your valuable enquiries. We will be too glad to submit our quotation.
                 </p>
               </div>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
-                alt="Industrial pipes"
+                src="/HEADER/ABOUT.png"
+                alt="Heavy industrial manufacturing"
                 className="rounded-2xl shadow-2xl shadow-blue-900/20 w-full h-[420px] object-cover"
               />
               <div className="absolute -bottom-5 -left-5 bg-orange-500 text-white rounded-2xl p-5 shadow-xl">
-                <div className="text-3xl font-black">30+</div>
+                <div className="text-3xl font-black">36+</div>
                 <div className="text-sm font-semibold opacity-90">
                   Years of Excellence
                 </div>

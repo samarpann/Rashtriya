@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const highlights = [
-  "30+ Years of Industry Experience",
+  "36+ Years of Industry Experience",
   "Pan-India Distribution Network",
   "ISO Certified Product Range",
   "10,000+ Products in Stock",
@@ -17,8 +17,8 @@ export default function AboutPreview() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-blue-900/20">
               <img
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80"
-                alt="Industrial warehouse"
+                src="/HEADER/ABOUT.png"
+                alt="Heavy industrial manufacturing"
                 className="w-full h-[440px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0f1c2e]/60 to-transparent" />
@@ -27,7 +27,7 @@ export default function AboutPreview() {
             <div className="absolute -bottom-6 -right-4 bg-white rounded-2xl shadow-2xl shadow-blue-900/20 p-5 border border-gray-100">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="text-white font-black text-xl">30</span>
+                  <span className="text-white font-black text-xl">36</span>
                 </div>
                 <div>
                   <div className="text-gray-900 font-bold text-sm">Years of</div>
@@ -53,15 +53,15 @@ export default function AboutPreview() {
               <span className="text-orange-500">Industrial Metals</span>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Rashtriya Tubes & Fittings is a trusted name in the metal and
-              piping industry, specializing in the supply of superior-grade
-              Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, and
-              Industrial Fittings.
+              We have pleasure in introducing ourselves as one of the leading
+              importers, stockists and dealers of all kinds of ferrous and
+              non-ferrous metals.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              We deliver products designed to withstand demanding industrial
-              applications while ensuring high performance, corrosion
-              resistance, and long service life.
+              With our commitment to quality and services, we have emerged as
+              the market leaders in this field over a period of more than a
+              decade now, dealing in all grades of Stainless Steel, Carbon
+              Steel, and Alloy Steel.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">

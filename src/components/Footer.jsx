@@ -12,7 +12,7 @@ const InstagramIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+    <line x1="17.5" y1="6.5" mmmx2="17.51" y2="6.5" />
   </svg>
 );
 const LinkedinIcon = () => (
@@ -44,13 +44,20 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-4">
-              <div className="w-11 h-11 rounded-xl bg-orange-500 flex items-center justify-center">
-                <span className="text-white font-black text-lg">R</span>
-              </div>
+              <img 
+                src="/logo.jpeg" 
+                alt="Rashtriya Tubes & Fittings Logo" 
+                className="h-14 w-auto object-contain bg-white/10 rounded p-1" 
+              />
               <div>
-                <div className="text-white font-black text-base">Rashtriya</div>
-                <div className="text-orange-400 text-xs font-semibold tracking-widest uppercase">
+                <div className="text-white font-black text-lg flex items-baseline">
+                  R<span className="text-[26px] font-serif italic text-orange-500 px-px">A</span>shtriya
+                </div>
+                <div className="text-orange-400 text-[11px] font-bold tracking-widest uppercase mt-0.5">
                   Tubes & Fittings
+                </div>
+                <div className="mt-1.5 inline-flex items-center gap-1 bg-gradient-to-r from-orange-600 to-amber-500 text-white px-2 py-0.5 rounded border border-orange-400/20 shadow-sm transform -skew-x-6">
+                  <span className="text-[10px] font-black italic tracking-wider transform skew-x-6">36TH ANNIVERSARY</span>
                 </div>
               </div>
             </Link>
@@ -137,9 +144,9 @@ export default function Footer() {
                     className="text-orange-500 mt-0.5 shrink-0"
                   />
                   <span className="text-gray-400 text-sm">
-                    19-B Jindal House, Back Side Asaf Ali Road,
-                    <br />
-                    New Delhi - 110002
+                    <strong>Office:</strong> 101, 1st Floor, B-Wing, Pankaj Heights, Mumbai<br/>
+                    <strong>Factory:</strong> Vasai East, Palghar, Maharashtra<br/>
+                    <strong>Warehouse:</strong> KEC, Panvel, Raigarh
                   </span>
                 </div>
               </li>
@@ -187,7 +194,7 @@ export default function Footer() {
             reserved.
           </p>
           <p className="text-gray-600 text-xs">
-            Bharat Jain — Industrial Supplies, New Delhi
+            Bharat Jain — Industrial Supplies, Mumbai
           </p>
         </div>
       </div>
