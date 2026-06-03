@@ -49,6 +49,11 @@ export default function Footer() {
                 alt="Rashtriya Tubes & Fittings Logo" 
                 className="h-14 w-auto object-contain bg-white/10 rounded p-1" 
               />
+              <img 
+                src="/emblem.svg" 
+                alt="State Emblem of India" 
+                className="h-14 w-auto object-contain bg-white/90 rounded p-1" 
+              />
               <div>
                 <div className="text-white font-black text-lg flex items-baseline">
                   R<span className="text-[26px] font-serif italic text-orange-500 px-px">A</span>shtriya

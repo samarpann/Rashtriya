@@ -50,16 +50,16 @@ export default function Navbar() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-18 py-3">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-4 group" onClick={() => setMenuOpen(false)}>
-            <div className="bg-white rounded-xl p-1.5 shadow-md group-hover:scale-105 transition-transform">
+            <div className="bg-white rounded-xl p-1.5 shadow-md group-hover:scale-105 transition-transform border-2 border-blue-500">
               <img 
                 src="/logo.jpeg" 
                 alt="Rashtriya Tubes & Fittings Logo" 
-                className="h-12 sm:h-14 w-auto object-contain mix-blend-multiply" 
+                className="h-16 sm:h-20 w-auto object-contain mix-blend-multiply" 
               />
             </div>
             <div className="leading-tight mt-1">
-              <div className={`font-black text-2xl tracking-tight transition-colors flex items-baseline ${scrolled ? "text-[#1e3a5f]" : "text-white"}`}>
-                R<span className="text-[34px] font-serif italic text-orange-500 px-px">A</span>shtriya
+              <div className={`font-black text-4xl tracking-tight transition-colors flex items-baseline ${scrolled ? "text-[#1e3a5f]" : "text-white"}`}>
+                R<span className="text-[46px] font-serif italic text-blue-500 px-px">Λ</span>shtriya
               </div>
               <div className={`text-[13px] font-bold tracking-widest uppercase transition-colors ${scrolled ? "text-orange-500" : "text-orange-400"}`}>
                 Tubes & Fittings

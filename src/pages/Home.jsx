@@ -33,7 +33,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
-                className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.05] mb-6"
+                className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[1.05] mb-6 uppercase tracking-wider"
               >
                 Rashtriya
                 <br />

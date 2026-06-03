@@ -131,10 +131,13 @@ export default function About() {
                 alt="Heavy industrial manufacturing"
                 className="rounded-2xl shadow-2xl shadow-blue-900/20 w-full h-[420px] object-cover"
               />
-              <div className="absolute -bottom-5 -left-5 bg-orange-500 text-white rounded-2xl p-5 shadow-xl">
+              <div className="absolute -bottom-5 -left-5 bg-[#1e3a5f] text-white rounded-2xl p-5 shadow-xl border-2 border-blue-400/30">
                 <div className="text-3xl font-black">36+</div>
                 <div className="text-sm font-semibold opacity-90">
                   Years of Excellence
+                </div>
+                <div className="text-xs font-medium opacity-75 mt-1">
+                  (1994-2026)
                 </div>
               </div>
             </div>
