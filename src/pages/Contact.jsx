@@ -7,9 +7,7 @@ const contactCards = [
     title: "Delhi Office",
     color: "bg-blue-500",
     lines: [
-      "101, 1st Floor, B-Wing, Pankaj Heights,",
-      "Dr Deshmukh Lane, Opp VP Road Police Station,",
-      "Mumbai - 400 004",
+      "New Delhi, India"
     ],
     action: null,
   },
@@ -18,9 +16,8 @@ const contactCards = [
     title: "Mumbai Factory",
     color: "bg-orange-500",
     lines: [
-      "Gala No.2, S K Compound, Survey No.161, P No.a-2,",
-      "Palher, Vasai Phata, Village Waliv, Vasai East,",
-      "Palghar, Maharashtra, India - 401208.",
+      "Vasai East, Palghar,",
+      "Maharashtra - 401208"
     ],
     action: null,
   },
@@ -29,9 +26,8 @@ const contactCards = [
     title: "Mumbai Office (Head Office)",
     color: "bg-[#1e3a5f]",
     lines: [
-      "Plot 1417/1418, Road No 13,",
-      "KEC - Kalamboli Steel Market,",
-      "KEC, Panvel, Raigarh - 410218."
+      "Kalamboli Steel Market,",
+      "Panvel, Raigarh - 410218."
     ],
     action: null,
   },

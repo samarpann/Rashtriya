@@ -65,13 +65,21 @@ export default function Navbar() {
                 Tubes & Fittings
               </div>
               <div className="mt-1.5 inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-600 to-amber-500 text-white px-2.5 py-0.5 rounded shadow-sm border border-orange-400/20 transform -skew-x-6 hover:skew-x-0 transition-transform">
-                <span className="text-xs font-black italic tracking-wider transform skew-x-6">36TH ANNIVERSARY</span>
+                <span className="text-xs font-black italic tracking-wider transform skew-x-6">32ND ANNIVERSARY</span>
               </div>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-1">
+            <div className="flex items-center gap-3 mr-6 border-r border-gray-200/20 pr-6">
+              <div className="bg-white rounded-lg p-1 shadow-sm border border-gray-200 hover:scale-105 transition-transform">
+                <img src="/emblem-new.svg" alt="State Emblem of India" className="h-11 w-auto object-contain" />
+              </div>
+              <div className="rounded-full shadow-sm hover:scale-105 transition-transform">
+                <img src="/32-years-badge.png" alt="32 Years Anniversary" className="h-11 w-auto object-contain rounded-full" />
+              </div>
+            </div>
             {navLinks.map(({ label, to }) => (
               <NavLink
                 key={to}

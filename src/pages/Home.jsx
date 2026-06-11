@@ -15,12 +15,14 @@ export default function Home() {
       <section className="relative bg-hero-pattern min-h-[92vh] flex flex-col">
         <div className="flex-1 flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 w-full">
-            <motion.div
-              initial={{ y: 40, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="max-w-3xl"
-            >
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left Content */}
+              <motion.div
+                initial={{ y: 40, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className="max-w-3xl"
+              >
               <motion.span
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -70,6 +72,26 @@ export default function Home() {
                 </Link>
               </motion.div>
             </motion.div>
+
+            {/* Right Image */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+              className="hidden lg:block relative"
+            >
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 group h-[500px]">
+                <div className="absolute inset-0 bg-orange-500/10 mix-blend-overlay z-10 transition-opacity duration-500 group-hover:opacity-0"></div>
+                <img
+                  src="/industrial_files/japan-industrial-zone-mountain-fuji-shizuoka-prefecture_1028938-199346.jpg"
+                  alt="Industrial Facility"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-orange-500/20 rounded-full blur-3xl -z-10"></div>
+              <div className="absolute -top-6 -right-6 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl -z-10"></div>
+            </motion.div>
+          </div>
 
             {/* Stats */}
             <motion.div

@@ -23,17 +23,9 @@ export default function AboutPreview() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0f1c2e]/60 to-transparent" />
             </div>
-            {/* Floating stat card */}
-            <div className="absolute -bottom-6 -right-4 bg-white rounded-2xl shadow-2xl shadow-blue-900/20 p-5 border border-gray-100">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="text-white font-black text-xl">36</span>
-                </div>
-                <div>
-                  <div className="text-gray-900 font-bold text-sm">Years of</div>
-                  <div className="text-orange-500 font-black text-sm">Industrial Excellence</div>
-                </div>
-              </div>
+            {/* Floating badge */}
+            <div className="absolute -bottom-8 -right-8 w-36 h-36 rounded-full shadow-2xl border-[6px] border-white bg-white overflow-hidden z-10">
+              <img src="/32-years-badge.png" alt="32 Years Anniversary" className="w-full h-full object-contain" />
             </div>
             {/* Accent dot grid */}
             <div

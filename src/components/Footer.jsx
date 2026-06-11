@@ -49,20 +49,15 @@ export default function Footer() {
                 alt="Rashtriya Tubes & Fittings Logo" 
                 className="h-14 w-auto object-contain bg-white/10 rounded p-1" 
               />
-              <img 
-                src="/emblem.svg" 
-                alt="State Emblem of India" 
-                className="h-14 w-auto object-contain bg-white/90 rounded p-1" 
-              />
               <div>
                 <div className="text-white font-black text-lg flex items-baseline">
-                  R<span className="text-[26px] font-serif italic text-orange-500 px-px">A</span>shtriya
+                  R<span className="text-[26px] font-serif italic text-blue-500 px-px">Λ</span>shtriya
                 </div>
                 <div className="text-orange-400 text-[11px] font-bold tracking-widest uppercase mt-0.5">
                   Tubes & Fittings
                 </div>
                 <div className="mt-1.5 inline-flex items-center gap-1 bg-gradient-to-r from-orange-600 to-amber-500 text-white px-2 py-0.5 rounded border border-orange-400/20 shadow-sm transform -skew-x-6">
-                  <span className="text-[10px] font-black italic tracking-wider transform skew-x-6">36TH ANNIVERSARY</span>
+                  <span className="text-[10px] font-black italic tracking-wider transform skew-x-6">32ND ANNIVERSARY</span>
                 </div>
               </div>
             </Link>
@@ -193,14 +188,20 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
             © {new Date().getFullYear()} Rashtriya Tubes & Fittings. All rights
             reserved.
           </p>
-          <p className="text-gray-600 text-xs">
-            Bharat Jain — Industrial Supplies, Mumbai
-          </p>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 border-r border-gray-700 pr-4">
+              <img src="/emblem-new.svg" alt="State Emblem" className="h-10 w-auto bg-white/90 rounded p-1" />
+              <img src="/32-years-badge.png" alt="32 Years" className="h-10 w-auto rounded-full" />
+            </div>
+            <p className="text-gray-600 text-xs">
+              Bharat Jain — Industrial Supplies, Mumbai
+            </p>
+          </div>
         </div>
       </div>
     </footer>
