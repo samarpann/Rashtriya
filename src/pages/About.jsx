@@ -243,6 +243,22 @@ export default function About() {
         </div>
       </section>
 
+      {/* ─── CERTIFICATES ─── */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <span className="section-badge">Quality Assurance</span>
+            <h2 className="section-heading">
+              Our <span className="text-orange-500">Certificates</span>
+            </h2>
+          </div>
+          <div className="flex flex-wrap justify-center gap-8">
+            <img src="/certificate/iso.jpeg" alt="ISO Certificate" className="h-auto max-w-full md:h-96 w-auto object-contain border border-gray-200 shadow-lg rounded-xl hover:scale-105 transition-transform" />
+            <img src="/certificate/mou.jpeg" alt="MoU Certificate" className="h-auto max-w-full md:h-96 w-auto object-contain border border-gray-200 shadow-lg rounded-xl hover:scale-105 transition-transform" />
+          </div>
+        </div>
+      </section>
+
       {/* ─── INDUSTRIES ─── */}
       <IndustriesServed />
 

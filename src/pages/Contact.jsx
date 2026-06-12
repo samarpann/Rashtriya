@@ -7,7 +7,8 @@ const contactCards = [
     title: "Delhi Office",
     color: "bg-blue-500",
     lines: [
-      "New Delhi, India"
+      "1/9-B, Jindal House, Back Side Asaf Ali Road,",
+      "New Delhi-110002"
     ],
     action: null,
   },
@@ -35,7 +36,7 @@ const contactCards = [
     Icon: Phone,
     title: "Phone Numbers",
     color: "bg-green-500",
-    lines: ["98104-28612", "011-2323-1567", "4011-3969"],
+    lines: ["98104-28612", "011-2323-9281", "011-2323-1567", "011-4011-3969"],
     action: "tel:+919810428612",
     actionLabel: "Call Now",
   },

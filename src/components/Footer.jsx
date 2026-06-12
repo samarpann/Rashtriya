@@ -195,8 +195,8 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3 border-r border-gray-700 pr-4">
-              <img src="/emblem-new.svg" alt="State Emblem" className="h-10 w-auto bg-white/90 rounded p-1" />
-              <img src="/32-years-badge.png" alt="32 Years" className="h-10 w-auto rounded-full" />
+              <img src="/emblem-new.svg" alt="State Emblem" className="h-16 w-auto bg-white/90 rounded p-1" />
+              <img src="/32-years-badge.png" alt="32 Years" className="h-16 w-auto rounded-full" />
             </div>
             <p className="text-gray-600 text-xs">
               Bharat Jain — Industrial Supplies, Mumbai

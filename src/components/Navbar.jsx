@@ -74,10 +74,10 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-1">
             <div className="flex items-center gap-3 mr-6 border-r border-gray-200/20 pr-6">
               <div className="bg-white rounded-lg p-1 shadow-sm border border-gray-200 hover:scale-105 transition-transform">
-                <img src="/emblem-new.svg" alt="State Emblem of India" className="h-11 w-auto object-contain" />
+                <img src="/emblem-new.svg" alt="State Emblem of India" className="h-20 sm:h-24 w-auto object-contain" />
               </div>
               <div className="rounded-full shadow-sm hover:scale-105 transition-transform">
-                <img src="/32-years-badge.png" alt="32 Years Anniversary" className="h-11 w-auto object-contain rounded-full" />
+                <img src="/32-years-badge.png" alt="32 Years Anniversary" className="h-20 sm:h-24 w-auto object-contain rounded-full" />
               </div>
             </div>
             {navLinks.map(({ label, to }) => (
